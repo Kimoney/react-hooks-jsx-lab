@@ -9,7 +9,7 @@ const h1Style = {
 function Home() {
   return (
   <div id="home">
-    <h1 style={h1Style}>Your {name} is a Web Developer from Your {city} </h1>
+    <h1 style={h1Style}>{name} is a Web Developer from {city}</h1>
   </div>
   );
 }
